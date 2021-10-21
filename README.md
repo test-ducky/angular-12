@@ -8,7 +8,7 @@ Edit `src/main.ts` to toggle between running tests or the app.
 
 ## Why?
 
-Easily conduct practical interview in person or remote without worrying about a development environment.
+Easily conduct practical interviews in person or remote without worrying about a development environment.
 
 ## Author
 
