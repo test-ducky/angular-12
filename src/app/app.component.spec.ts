@@ -1,4 +1,5 @@
 import { TestBed } from '@angular/core/testing';
+import { Utils } from '../utils';
 import { AppComponent } from './app.component';
 import { AppModule } from './app.module';
 
@@ -34,7 +35,7 @@ describe('AppComponent', () => {
     const app = fixture.debugElement.componentInstance;
     const mockDate = new Date();
     mockDate.setMonth(11);
-    spyOn(app, 'getDate').and.returnValue(mockDate);
+    spyOn(Utils, 'getDate').and.returnValue(mockDate);
     expect(app.getCurrentMonth()).toEqual('December');
   });
 });

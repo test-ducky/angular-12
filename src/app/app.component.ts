@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Utils } from '../utils';
 
 @Component({
   selector: 'my-app',
@@ -11,10 +12,6 @@ export class AppComponent implements OnInit {
   ngOnInit(): void {}
 
   getCurrentMonth(): string {
-    return this.getDate().toLocaleString('default', { month: 'long' });
-  }
-
-  getDate() {
-    return new Date();
+    return Utils.getDate().toLocaleString('default', { month: 'long' });
   }
 }
