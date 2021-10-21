@@ -1,3 +1,3 @@
-# angular-ivy-4wynq3
+# angular-12-test-ducky
 
-[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-ivy-4wynq3)
+[Edit on StackBlitz ⚡️](https://stackblitz.com/edit/angular-12-test-ducky)
