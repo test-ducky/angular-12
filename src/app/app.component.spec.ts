@@ -23,14 +23,14 @@ describe('AppComponent', () => {
     expect(nativeEl.querySelector('div').textContent).toContain('Hello World');
   });
 
-  it(`should show the current month`, () => {
+  it(`should show the current name of the month`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     fixture.detectChanges();
     const nativeEl = fixture.debugElement.nativeElement;
     expect(nativeEl.querySelector('div').textContent).toContain('January');
   });
 
-  it(`should calculate the month`, () => {
+  it(`should calculate the full name of the month from the system date`, () => {
     const fixture = TestBed.createComponent(AppComponent);
     const app = fixture.debugElement.componentInstance;
     const mockDate = new Date();
